@@ -19,7 +19,6 @@ export const getMessageItems = createAsyncThunk('messages/getMessageItems', asyn
   }
 });
 
-
 const messagesSlice = createSlice({
   name: 'messages',
   initialState,
